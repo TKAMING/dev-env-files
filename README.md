@@ -13,6 +13,13 @@ jk = go back to normal mode
 
 x = delete
 
+shift + jk = keeps the cursor in a fix position
+
+ctrl u = go up half a page
+ctrl d = go down half a page
+ctrl f = go down a full page
+ctrl b = to go up a full page
+
 y = copy
 
 r… = replace
@@ -186,3 +193,14 @@ stop/start/restart yabai
 ctrl + alt - q : brew services stop yabai
 ctrl + alt - s : brew services start yabai
 ctrl + alt - r : brew services restart yabai
+
+## Tmux
+(not really a shortcut)
+tmux new -s [name] = creates a new session
+tmux detach = to leave the session
+tmux attach -t [name] = go back into an old sesion
+
+prefix = ctrl a (use before every command)
+<prefix> s = to seee the sessions in tmux
+<prefix> | = split pane horizontally
+<prefix> - = split pane vertically[](url)
