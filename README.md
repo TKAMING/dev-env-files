@@ -13,6 +13,10 @@ jk = go back to normal mode
 
 x = delete
 
+w = left word
+
+b = right word
+
 shift + jk = keeps the cursor in a fix position
 
 ctrl u = go up half a page
@@ -117,6 +121,10 @@ i ← enter insert mode
 a → enter insert mode
 
 shift + i / a = insert mode at start-end of the line
+
+% = new file
+
+d = new directory
 
 # Skhd
 
