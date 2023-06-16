@@ -13,9 +13,9 @@ jk = go back to normal mode
 
 x = delete
 
-w = left word
+w = right word
 
-b = right word
+b = left word
 
 shift + jk = keeps the cursor in a fix position
 
