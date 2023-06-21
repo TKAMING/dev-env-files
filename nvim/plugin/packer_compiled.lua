@@ -149,12 +149,7 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["neo-runner.nvim"] = {
-    loaded = true,
-    path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/neo-runner.nvim",
-    url = "https://github.com/BenGH28/neo-runner.nvim"
-  },
+  }, 
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
