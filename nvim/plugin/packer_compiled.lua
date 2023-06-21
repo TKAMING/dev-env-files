@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["leaf.nvim"] = {
+    loaded = true,
+    path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/leaf.nvim",
+    url = "https://github.com/daschw/leaf.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -200,11 +205,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/Users/tobiask/.local/share/nvim/site/pack/packer/start/leaf.nvim",
-    url = "https://github.com/daschw/leaf.nvim"
   },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,

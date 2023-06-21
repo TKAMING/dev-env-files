@@ -106,7 +106,13 @@ return packer.startup(function(use)
 
     use("BenGH28/neo-runner.nvim") -- neo-runner
     
-    use("daschw/leaf.nvim") -- colorscheme leaf
+    use({
+        "rebelot/kanagawa.nvim",
+        as = "kanagawa",
+        config = function()
+            vim.cmd('colorscheme rose-pine')
+        end
+    })
 
     -- git integration
     use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
